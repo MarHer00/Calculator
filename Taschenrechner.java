@@ -71,13 +71,13 @@ public class Taschenrechner {
 		frame.getContentPane().add(bPerc);
 		
 		JButton bPlus = new JButton("+");
-		bplus.addActionListener(new ActionListener() {
+		bPlus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				bPlus_actionPerformed(e);
 			}
 		});
-		bplus.setBounds(266, 134, 62, 62);
-		frame.getContentPane().add(bplus);
+		bPlus.setBounds(266, 134, 62, 62);
+		frame.getContentPane().add(bPlus);
 		
 		JButton b1 = new JButton("1");
 		b1.addActionListener(new ActionListener() {
